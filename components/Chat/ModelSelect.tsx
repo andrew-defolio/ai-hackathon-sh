@@ -44,9 +44,7 @@ export const ModelSelect = () => {
               value={model.id}
               className="dark:bg-[#343541] dark:text-white"
             >
-              {model.id === defaultModelId
-                ? `Default (${model.name})`
-                : model.name}
+                BigPumpAI
             </option>
           ))}
         </select>
@@ -57,8 +55,7 @@ export const ModelSelect = () => {
           target="_blank"
           className="flex items-center"
         >
-          <IconExternalLink size={18} className={'inline mr-1'} />
-          {t('View Account Usage')}
+          {t('BigPumpAI')}
         </a>
       </div>
     </div>
